@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="da">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kontaktform</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<header>
+		<nav>
+			<a class="logo" href="index.html"><img src="img/logo.png" alt="virksomhedens logo"></a>
+			<ul>
+                <li><a href="index.html">Forsiden</a></li>
+				<li><a href="Info.html">Info</a></li>
+				<li><a href="kontakt.html">Kontakt</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<main class="kontaktform">
+		<h1>Kontakt os her</h1>
+        <p class="kontakt-tekst">Skriv en besked via kontaktformularen så vender vi tilbage</p>
+	
+		<form>
+			<label for="navn">Navn</label> 
+			<input id="navn" type="text" required>
+			
+			<label for="adresse">Adresse</label>
+			<input id="adresse" type="text">
+			
+			<label for="telefon">Telefonnummer</label>
+			<input id="telefon" type="tel">
+			
+			<label for="mail">E-mail</label>
+			<input id="mail" type="email" required>
+
+			<div class="custom-select">
+				<label for="region">Region</label>
+				<select id="region" name="select">
+					<option value="0" selected disabled>Vælg region</option> 
+					<option value="1">Syddanmark</option>
+					<option value="2">Sjælland</option>
+					<option value="3">Hovedstaden</option>
+					<option value="4">Nordjylland</option>
+					<option value="5">Midtjylland</option>
+				</select>
+			</div>
+
+			<fieldset class="checkbox"> 
+				<legend>Hvilket område ønsker du mere viden omkring?</legend>
+				<div>
+					<input type="checkbox" name="viden" id="Naviger sikkert paa internettet" value="Naviger sikkert paa internettet">
+					<label for="Naviger sikkert paa internettet">Naviger sikkert på internettet</label>
+				</div>
+					
+				<div>
+					<input type="checkbox" name="viden" id="kritisk taenkning online" value="kritisk taenkning online">
+					<label for="kritisk taenkning online">Kritisk tænkning online</label>
+				</div>
+					
+				<div>
+					<input type="checkbox" name="viden" id="Sociale medier" value="Sociale medier">
+					<label for="Sociale medier">Sociale medier</label>
+				</div>
+					
+				<div>
+					<input type="checkbox" name="viden" id="Beskyt dit privatliv" value="Beskyt dit privatliv">
+					<label for="Beskyt dit privatliv">Beskyt dit privatliv</label>
+				</div>
+			</fieldset>
+				
+			<label for="besked">Besked</label>
+			<textarea name="besked" id="besked" rows="8" cols="60"></textarea> 	
+				
+			<fieldset> 
+				<legend>Må vi kontakte dig på din telefon?</legend>
+				
+				<input id="ja" type="radio" value="ja" name="kontaktes">
+				<label for="ja">Ja</label>
+				
+				<input id="nej" type="radio" value="nej" name="kontaktes">
+				<label for="nej">Nej</label>
+			</fieldset>
+				
+			<input type="submit" name="submit" value="Send">
+		
+		</form>
+	</main>
+   
+</body>
+</html>
