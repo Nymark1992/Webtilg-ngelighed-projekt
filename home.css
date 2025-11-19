@@ -76,7 +76,16 @@ body {
     border-top-right-radius: 2px;
   }
 
-    
+    .logo img {
+    width: 150px;
+    height: auto;
+ }
+   nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+  } 
   
   footer {
     background-color: #de7e11;

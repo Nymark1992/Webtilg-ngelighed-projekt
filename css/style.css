@@ -29,13 +29,13 @@ h1{
 
 header{
 	background-color: #391cd8;
-	height: 5em;
-	padding: 1em;
+	height: 9em;
+	padding: 2em;
 	margin-bottom: 4em;	
 }
 
 .logo img{
-	height: 50px;
+	height: 52px;
 	width: auto;
 }
 
@@ -52,7 +52,7 @@ nav li a {
 	text-decoration: none;
 	padding: 1em;
 	font-size: 20px;
-	color:#fff;
+	color:#e4e2e2;
 	text-transform: uppercase;
 }
 
@@ -65,10 +65,15 @@ main{
     padding: 0 2em 2em;
 }
 
+    .logo img {
+    width: 80px;
+    height: auto;
+ }
+
+  
 
 
-
-input[type=text], input[type=email],input[type=tel], select, textarea { /*vælger de emner/typer som skal berøres af nedenstående css*/
+input[type=text], input[type=email],input[type=tel], select, textarea { 
   width: 100%;
   padding: 1em;
   border: 1px solid #ccc;
@@ -144,7 +149,7 @@ input[type=radio]{
 }
 
 fieldset{
-	border-color: #391cd8;
+	border-color: #df6500;
 	border-style: dotted; 
 }
 
@@ -154,7 +159,7 @@ fieldset{
 
 .kontaktform {
   border-radius: 5px;
-  background-color: #c5c5c5;
+  background-color: #a2a1ad;
   padding: 1.3em;
   width: 50%;
   margin: 0 auto; 
