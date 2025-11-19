@@ -132,7 +132,7 @@ body {
   }
   nav ul {
     display: flex;
-    gap: 20px; /* afstand mellem links */
+    gap: 20px; 
     list-style: none;
     margin: 0;
     padding: 0;
@@ -146,23 +146,23 @@ body {
     }
 
     
-/* Hele boksen nederst */
+
 .contact-box {
-    width: 100%;                    /* fylder hele skærmens bredde */
-    background: #de7e11;            /* mørk baggrund */
+    width: 100%;                    
+    background: #de7e11;            
     color: rgb(33, 32, 32);
-    padding: 30px 20px;             /* luft inde i boksen */
+    padding: 30px 20px;             
     box-sizing: border-box;
 }
 
-/* Indholdet i midten */
+
 .contact-content {
-    max-width: 900px;               /* gør teksten smal og læsbar */
-    margin: 0 auto;                 /* centrerer indholdet */
+    max-width: 900px;               
+    margin: 0 auto;                 
     text-align: center;
 }
 
-/* Link styling */
+
 .contact-box a {
     color: #391cd8;
     text-decoration: none;
@@ -172,7 +172,7 @@ body {
     text-decoration: underline;
 }
 
-/* RESPONSIVE */
+
 @media (max-width: 600px) {
     .contact-box {
         padding: 25px 15px;
