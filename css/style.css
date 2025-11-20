@@ -57,7 +57,7 @@ nav li a {
 }
 
 nav a:hover{
-	color: #de7e11;
+	color: #ffd700;
 	transition: 0.5s; 
 }
 
@@ -134,6 +134,10 @@ input[type=submit]:hover {
   transition: 0.5s;
  
 }
+input[type=submit]:focus {
+	outlinr: 3px solid #ffd700;
+	font-weight: bold;
+}
 
 input[type=checkbox]{
 	margin: 0.8em 0;
@@ -149,7 +153,7 @@ input[type=radio]{
 }
 
 fieldset{
-	border-color: #df6500;
+	border-color: #ba5400;
 	border-style: dotted; 
 }
 
@@ -160,8 +164,9 @@ fieldset{
 .kontaktform {
   border-radius: 5px;
   background-color: #a2a1ad;
+  color: #1a1a1a;
   padding: 1.3em;
-  width: 50%;
+  width: 60%;
   margin: 0 auto; 
 }
 

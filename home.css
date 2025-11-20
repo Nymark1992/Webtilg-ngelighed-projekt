@@ -34,11 +34,13 @@ body {
     display: block;
     border-radius: 4px;
   }
-  
+  /*-- ændringer af farver omrking navigation --*/
   nav ul li a:hover,
   nav ul li a:focus {
-    background-color: #391cd8;
-    outline: 3px solid #de7e11;
+    background-color: #2a0fa3;
+    outline: 3px solid #FFD700;
+     font-weight: bold;
+    text-decoration:  underline;
   }
   
   main {
@@ -68,16 +70,11 @@ body {
     margin: 1rem auto;
     border-radius: 4px;
   }
-  img {
-    max-width: 50%;
-    height: auto;
-    display: block;
-    margin: 1rem auto;
-    border-top-right-radius: 2px;
-  }
+  
+  
 
     .logo img {
-    width: 150px;
+    width: 80px;
     height: auto;
  }
    nav {
@@ -128,7 +125,7 @@ body {
     border-image-width: 10%;
   }
   
-  @media (max-width:200px) {
+  @media (max-width:768px) {
     nav ul {
       flex-direction: column;
       align-items: center;
